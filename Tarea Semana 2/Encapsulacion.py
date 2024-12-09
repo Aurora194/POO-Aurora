@@ -12,7 +12,7 @@ class Perso:
         if eda > 0:
             self.__eda = eda
         else:
-            print("Edad no válida")
+            print("No válida la edad")
 
 # Uso de la clase
 
