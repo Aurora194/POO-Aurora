@@ -16,8 +16,9 @@ class Gato(Animal):
 def hacer_soni_de_animal(animal: Animal):
     animal.hacer_son()
 
-perro = Perro()
+
 gato = Gato()
+perro = Perro()
 
 
 hacer_soni_de_animal(gato)   # "Miau!"
