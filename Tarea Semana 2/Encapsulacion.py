@@ -1,4 +1,6 @@
+
 class Perso:
+
     def __init__(self, nomb, eda):
         self.__nomb = nomb  # Atributo
         self.__eda = eda  # Atributo
@@ -13,7 +15,8 @@ class Perso:
             print("Edad no válida")
 
 # Uso de la clase
-perso = Perso("Rebeca", 38)
+
+perso = Perso("Rebeca", 36)
 print(perso.obtener_nombre())  # "Rebeca"
 perso.set_edad(41)
 

@@ -1,10 +1,12 @@
+
 class Animal:
+
     def hacer_son(self):
         pass
 
 class Perro(Animal):
     def hacer_soni(self):
-        print("Guau!")
+        print("Guauu!")
 
 class Gato(Animal):
     def hacer_soni(self):
@@ -20,4 +22,4 @@ gato = Gato()
 
 hacer_soni_de_animal(gato)   # "Miau!"
 
-hacer_soni_de_animal(perro)  # "Guau!"
+hacer_soni_de_animal(perro)  # "Guauu!"

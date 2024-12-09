@@ -1,3 +1,4 @@
+
 from abc import ABC, abstractmethod
 
 class Animal(ABC):
@@ -12,12 +13,12 @@ class Gato(Animal):
 
 class Perro(Animal):
     def hacer_son(self):
-        print("Gua!")
+        print("Guauu!")
 
-# Uso de la abstracción
+# Uso de la abstraccion
 
 gato = Gato()
 gato.hacer_son()  # "Miau!"
 
 perro = Perro()
-perro.hacer_son()  # "Gua!"
+perro.hacer_son()  # "Guauu!"

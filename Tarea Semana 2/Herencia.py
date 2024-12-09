@@ -1,4 +1,6 @@
+
 class Vehiculo:
+
     def __init__(self, marc, mode):
         self.mode = mode
         self.marc = marc
@@ -9,7 +11,7 @@ class Vehiculo:
 
 class Coche(Vehiculo):
     def __init__(self, marc, mode, puertas):
-        super().__init__(marc, mode)  # Llamada al constructor de la superclase
+        super().__init__(marc, mode)  # Llamada al creador de la superclase
         self.puertas = puertas
 
     def descripcion(self):
@@ -17,5 +19,6 @@ class Coche(Vehiculo):
 
 
 # Uso de la herencia
+
 coche = Coche("Chevrolet", "Onix Turbo", 4)
 print(coche.descripcion()) # "Chevrolet Onix Turbo, 4 puertas"
