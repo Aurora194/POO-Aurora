@@ -1,0 +1,1 @@
+{"7565": {"nombre": "Aceite", "cantidad": 86, "precio": 1.55}, "8923": {"nombre": "Cafe", "cantidad": 54, "precio": 1.3}, "6354": {"nombre": "Pasta de Dientes", "cantidad": 34, "precio": 0.95}, "1043": {"nombre": "Lenteja", "cantidad": 14, "precio": 0.55}, "7659": {"nombre": "Leche", "cantidad": 54, "precio": 0.45}}
