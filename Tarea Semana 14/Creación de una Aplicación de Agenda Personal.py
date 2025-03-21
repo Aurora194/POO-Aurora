@@ -38,9 +38,7 @@ class AgendaApp :
 
         # Botones
         tk.Button(self.frame_entrada, text="Agregar Evento", command=self.agregar_evento).grid(row=3, column=0, pady=10)
-        tk.Button(self.frame_entrada, text="Eliminar Evento Seleccionado", command=self.eliminar_evento).grid(row=3,
-                                                                                                              column=1,
-                                                                                                              pady=10)
+        tk.Button(self.frame_entrada, text="Eliminar Evento Seleccionado", command=self.eliminar_evento).grid(row=3,column=1,pady=10)
         tk.Button(self.frame_entrada, text="Salir", command=root.quit).grid(row=4, columnspan=2, pady=10)
 
     def agregar_evento(self) :
